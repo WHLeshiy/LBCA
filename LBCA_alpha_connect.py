@@ -2,7 +2,7 @@ from PyQt5 import uic, QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from shifrovanie import rasshifr, shifr
 
-Form, Window = uic.loadUiType("proba.ui")
+Form, Window = uic.loadUiType("LBCA_alpha.ui")
 
 app = QApplication([])
 window = Window()
