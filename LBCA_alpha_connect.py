@@ -10,7 +10,6 @@ form = Form()
 form.setupUi(window)
 window.show()
 
-_translate = QtCore.QCoreApplication.translate
 
 
 def connecntion_slider_spinbox():
