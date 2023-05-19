@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\User\PycharmProjects\pythonProject\proba.ui'
+# Form implementation generated from reading ui file 'C:\Users\User\PycharmProjects\pythonProject\LBCA_alpha.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -15,11 +15,12 @@ class Ui_LBCA(object):
     def setupUi(self, LBCA):
         LBCA.setObjectName("LBCA")
         LBCA.setEnabled(True)
-        LBCA.setFixedSize(1600, 800)
+        LBCA.resize(1493, 805)
+        LBCA.setMinimumSize(QtCore.QSize(1493, 805))
+        LBCA.setMaximumSize(QtCore.QSize(1493, 805))
+        LBCA.setSizeIncrement(QtCore.QSize(0, 0))
         icon = QtGui.QIcon()
-        icon.addPixmap(
-            QtGui.QPixmap("C:\\Users\\User\\PycharmProjects\\pythonProject\\../../Desktop/image_LBCA_neon_1.jpg"),
-            QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\User\\PycharmProjects\\pythonProject\\../../Desktop/image_LBCA_neon_1.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         LBCA.setWindowIcon(icon)
         LBCA.setAutoFillBackground(False)
         LBCA.setToolButtonStyle(QtCore.Qt.ToolButtonIconOnly)
@@ -33,7 +34,7 @@ class Ui_LBCA(object):
         self.page_5 = QtWidgets.QWidget()
         self.page_5.setObjectName("page_5")
         self.label_12 = QtWidgets.QLabel(self.page_5)
-        self.label_12.setGeometry(QtCore.QRect(870, 570, 581, 151))
+        self.label_12.setGeometry(QtCore.QRect(820, 530, 651, 231))
         font = QtGui.QFont()
         font.setPointSize(24)
         self.label_12.setFont(font)
@@ -77,7 +78,7 @@ class Ui_LBCA(object):
         font = QtGui.QFont()
         font.setPointSize(20)
         font.setBold(False)
-        font.setItalic(True)
+        font.setItalic(False)
         font.setUnderline(False)
         font.setStrikeOut(False)
         font.setStyleStrategy(QtGui.QFont.PreferDefault)
@@ -102,6 +103,8 @@ class Ui_LBCA(object):
         self.comboBox_3.setObjectName("comboBox_3")
         self.comboBox_3.addItem("")
         self.comboBox_3.addItem("")
+        self.comboBox_3.addItem("")
+        self.comboBox_3.addItem("")
         self.verticalLayout_2.addWidget(self.comboBox_3)
         self.stackedWidget.addWidget(self.page_5)
         self.page_6 = QtWidgets.QWidget()
@@ -113,20 +116,20 @@ class Ui_LBCA(object):
         font.setPointSize(22)
         self.tabWidget.setFont(font)
         self.tabWidget.setStyleSheet("QTabWidget::pane\n"
-                                     "{\n"
-                                     "border: 1px;\n"
-                                     "}\n"
-                                     "QTabBar::tab\n"
-                                     "{\n"
-                                     "background:rgb(2, 0, 57);\n"
-                                     "color:rgb(242, 250, 255);\n"
-                                     "}\n"
-                                     "\n"
-                                     " QTabBar::tab:selected\n"
-                                     "{\n"
-                                     "\n"
-                                     "background: rgb(35, 165, 89);\n"
-                                     "}")
+"{\n"
+"border: 1px;\n"
+"}\n"
+"QTabBar::tab\n"
+"{\n"
+"background:rgb(2, 0, 57);\n"
+"color:rgb(242, 250, 255);\n"
+"}\n"
+"\n"
+" QTabBar::tab:selected\n"
+"{\n"
+"\n"
+"background: rgb(35, 165, 89);\n"
+"}")
         self.tabWidget.setObjectName("tabWidget")
         self.Shifr_chz = QtWidgets.QWidget()
         self.Shifr_chz.setObjectName("Shifr_chz")
@@ -146,7 +149,7 @@ class Ui_LBCA(object):
         self.prinzh_1.setWordWrap(True)
         self.prinzh_1.setObjectName("prinzh_1")
         self.lin = QtWidgets.QLabel(self.Shifr_chz)
-        self.lin.setGeometry(QtCore.QRect(90, 170, 431, 61))
+        self.lin.setGeometry(QtCore.QRect(80, 150, 431, 91))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(18)
@@ -216,7 +219,7 @@ class Ui_LBCA(object):
         self.textEdit_1.setFont(font)
         self.textEdit_1.setObjectName("textEdit_1")
         self.shrsh_txt = QtWidgets.QLabel(self.Shdesh)
-        self.shrsh_txt.setGeometry(QtCore.QRect(100, 300, 536, 38))
+        self.shrsh_txt.setGeometry(QtCore.QRect(100, 300, 571, 38))
         font = QtGui.QFont()
         font.setPointSize(22)
         self.shrsh_txt.setFont(font)
@@ -239,10 +242,10 @@ class Ui_LBCA(object):
         font.setBold(True)
         self.btn_zashifr.setFont(font)
         self.btn_zashifr.setStyleSheet("QPushButton:checked {\n"
-                                       "    background:rgb(2, 0, 57);\n"
-                                       "    border: 1px solid  rgb(60, 127, 177);\n"
-                                       "    color:rgb(242, 250, 255);\n"
-                                       "}")
+"    background:rgb(2, 0, 57);\n"
+"    border: 1px solid  rgb(60, 127, 177);\n"
+"    color:rgb(242, 250, 255);\n"
+"}")
         self.btn_zashifr.setCheckable(True)
         self.btn_zashifr.setChecked(False)
         self.btn_zashifr.setAutoExclusive(True)
@@ -254,10 +257,10 @@ class Ui_LBCA(object):
         font.setBold(True)
         self.btn_rashifr.setFont(font)
         self.btn_rashifr.setStyleSheet("QPushButton:checked {\n"
-                                       "    background:rgb(2, 0, 57);\n"
-                                       "    border: 1px solid  rgb(60, 127, 177);\n"
-                                       "    color:rgb(242, 250, 255);\n"
-                                       "}")
+"    background:rgb(2, 0, 57);\n"
+"    border: 1px solid  rgb(60, 127, 177);\n"
+"    color:rgb(242, 250, 255);\n"
+"}")
         self.btn_rashifr.setCheckable(True)
         self.btn_rashifr.setChecked(False)
         self.btn_rashifr.setAutoExclusive(True)
@@ -306,7 +309,7 @@ class Ui_LBCA(object):
         self.hist_sprv = QtWidgets.QWidget()
         self.hist_sprv.setObjectName("hist_sprv")
         self.date_czr = QtWidgets.QLabel(self.hist_sprv)
-        self.date_czr.setGeometry(QtCore.QRect(0, 560, 521, 71))
+        self.date_czr.setGeometry(QtCore.QRect(0, 560, 661, 121))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -326,7 +329,7 @@ class Ui_LBCA(object):
         self.info_1.setWordWrap(True)
         self.info_1.setObjectName("info_1")
         self.exit_btn = QtWidgets.QPushButton(self.hist_sprv)
-        self.exit_btn.setGeometry(QtCore.QRect(1040, 580, 363, 46))
+        self.exit_btn.setGeometry(QtCore.QRect(990, 580, 451, 81))
         font = QtGui.QFont()
         font.setPointSize(22)
         self.exit_btn.setFont(font)
@@ -351,57 +354,50 @@ class Ui_LBCA(object):
         self.stackedWidget.setCurrentIndex(0)
         self.comboBox_3.setCurrentIndex(0)
         self.tabWidget.setCurrentIndex(0)
-        self.horizontalSlider.valueChanged['int'].connect(self.spinBox.setValue)  # type: ignore
-        self.spinBox.valueChanged['int'].connect(self.horizontalSlider.setValue)  # type: ignore
-        self.comboBox_3.currentIndexChanged['int'].connect(self.stackedWidget.setCurrentIndex)  # type: ignore
+        self.horizontalSlider.valueChanged['int'].connect(self.spinBox.setValue) # type: ignore
+        self.spinBox.valueChanged['int'].connect(self.horizontalSlider.setValue) # type: ignore
+        self.comboBox_3.currentIndexChanged['int'].connect(self.stackedWidget.setCurrentIndex) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(LBCA)
 
     def retranslateUi(self, LBCA):
         _translate = QtCore.QCoreApplication.translate
         LBCA.setWindowTitle(_translate("LBCA", "LBCA"))
-        self.label_12.setText(_translate("LBCA",
-                                         "*LBCA(Лбикей) - является абриавиатурой от Learning the basics of cryptographic algorithms"))
+        self.label_12.setText(_translate("LBCA", "*LBCA(Лбикей) - является аббревиатурой от: Learning the basics of cryptographic algorithms(Обучение основам криптографических алгоритмов)"))
         self.label_9.setText(_translate("LBCA", "Добро пожаловать в LBCA"))
-        self.label_10.setText(_translate("LBCA",
-                                         "В приложении LBCA Вы сможете познакомиться с самыми базовыми алгоритмами шифрования и дешифрования, их принципами работы и историей."))
+        self.label_10.setText(_translate("LBCA", "В приложении LBCA Вы сможете познакомиться с самыми базовыми алгоритмами шифрования и дешифрования, их принципами работы и историей."))
         self.label_11.setText(_translate("LBCA", "Чтобы начать обучение выберите алгоритм шифрования:"))
         self.comboBox_3.setItemText(0, _translate("LBCA", "Выберите алгоритм шифрования"))
         self.comboBox_3.setItemText(1, _translate("LBCA", "Шифр Цезаря"))
+        self.comboBox_3.setItemText(2, _translate("LBCA", "Шифр Виженера"))
+        self.comboBox_3.setItemText(3, _translate("LBCA", "Шифр Плейфера"))
         self.ystr.setText(_translate("LBCA", "Как устроен шифр Цезаря?"))
-        self.prinzh_1.setText(_translate("LBCA",
-                                         "Принцип работы шифра Цезаря очень прост: каждая буква сдвигается в алфавите на некоторое количество символов, указанное\n"
-                                         "в ключе. Например, если ключ - 11, то буква А превратится в букву К. Также, если ключ больше чем количество букв\n"
-                                         "до конца алфавита, то просто  произойдет переход на новый круг. Например, при ключе 11 буква Я станет буквой Й."))
+        self.prinzh_1.setText(_translate("LBCA", "Принцип работы шифра Цезаря очень прост: каждая буква сдвигается в алфавите на некоторое количество символов, указанное\n"
+"в ключе. Например, если ключ - 11, то буква А превратится в букву К. Также, если ключ больше чем количество букв\n"
+"до конца алфавита, то просто  произойдет переход на новый круг. Например, при ключе 11 буква Я станет буквой Й."))
         self.lin.setText(_translate("LBCA", "Линейная визуализация шифрования"))
         self.label_2.setText(_translate("LBCA", "Преимущества и недостатки:"))
         self.label.setText(_translate("LBCA", "К преимуществам можно отнести простоту шифрования и дешифрования."))
-        self.label_3.setText(_translate("LBCA",
-                                        "К недостаткам данного метода шифрования можно отнести то, что при таком шифровании сохраняется алфавитный порядок букв. Не маскируется частотность (*) символов. Число ключей ограничено количеством символов в алфавите. "))
-        self.label_4.setText(_translate("LBCA",
-                                        "(*) Некоторые буквы в алфавитах встречаются чаще остальных, в следствии этого можно проследить насколько часто встречается тот или иной символ и, зная, какой это алфавит, провести дешифрование данного символа."))
+        self.label_3.setText(_translate("LBCA", "К недостаткам данного метода шифрования можно отнести то, что при таком шифровании сохраняется алфавитный порядок букв. Не маскируется частотность (*) символов. Число ключей ограничено количеством символов в алфавите. "))
+        self.label_4.setText(_translate("LBCA", "(*) Некоторые буквы в алфавитах встречаются чаще остальных, в следствии этого можно проследить насколько часто встречается тот или иной символ и, зная, какой это алфавит, провести дешифрование данного символа."))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.Shifr_chz), _translate("LBCA", "Шифр Цезаря"))
         self.orig_text.setText(_translate("LBCA", "Введите текст для шифрования "))
-        self.shrsh_txt.setText(_translate("LBCA", "Зашифрованный/расшифрованый текст"))
+        self.shrsh_txt.setText(_translate("LBCA", "Зашифрованный/расшифрованный текст"))
         self.btn_zashifr.setText(_translate("LBCA", "Зашифровать"))
         self.btn_rashifr.setText(_translate("LBCA", "Дешифровать"))
-        self.label_6.setText(_translate("LBCA",
-                                        "Ключ состоит из 33 возможных вариантов, потому что шифруются только буквы русского алфавита. Можно отметить интересную особенность, что текст с ключом 0 и 33 полностью совпадает, что и подтверждает суждение о цикличном круговом переходе символов."))
-        self.label_5.setText(_translate("LBCA", "Выберите ключ шифрования"))
+        self.label_6.setText(_translate("LBCA", "Ключ состоит из 33 возможных вариантов, потому что шифруются только буквы русского алфавита. Можно отметить интересную особенность, что текст с ключом 0 и 33 полностью совпадает, что и подтверждает суждение о цикличном круговом переходе символов."))
+        self.label_5.setText(_translate("LBCA", "Выберите ключ шифрования:"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.Shdesh), _translate("LBCA", "Шифрование/Дешифрование"))
         self.date_czr.setText(_translate("LBCA", "Гай Юлий Цезарь (100-44 г до н.э.)"))
-        self.info_1.setText(_translate("LBCA",
-                                       "Шифр Цезаря назван в честь известного древнеримского диктатора Юлия Цезаря. Согласно книге древнеримского историка Светония\n"
-                                       "“Жизнь двенадцати Цезарей”, он использовал шифр с ключом 3 для защиты военных сообщений. Конечно другие шифры подстановки\n"
-                                       "использовались и до него, но Цезарь был первым известным пользователем данной схемы."))
+        self.info_1.setText(_translate("LBCA", "Шифр Цезаря назван в честь известного древнеримского диктатора Юлия Цезаря. Согласно книге древнеримского историка Светония\n"
+"“Жизнь двенадцати Цезарей”, он использовал шифр с ключом 3 для защиты военных сообщений. Конечно другие шифры подстановки\n"
+"использовались и до него, но Цезарь был первым известным пользователем данной схемы."))
         self.exit_btn.setText(_translate("LBCA", "Вернуться в главное меню"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.hist_sprv), _translate("LBCA", "Историческая справка"))
-
-
 import resources_from_qt_rc
+
 
 if __name__ == "__main__":
     import sys
-
     app = QtWidgets.QApplication(sys.argv)
     LBCA = QtWidgets.QMainWindow()
     ui = Ui_LBCA()
